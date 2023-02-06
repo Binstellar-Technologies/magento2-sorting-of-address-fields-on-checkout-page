@@ -1,10 +1,12 @@
-## Magento2 Add new section & attribute for catalog category
+## Magento2 Sorting of Shipping Address fields on checkout page
 
 > Magento2 an open-source e-commerce platform written in PHP.
 
-> Here in this extension we are going to learn how to Add new section & attribute for catalog category.
+> Here in this extension we are going to learn how to sort shipping address fields like Street Address, City, Region, Postcode etc.. on the checkout page.
 
-> In this extension we have added 3 fields named as Is Homepage Display?(This is used to check if the image needs to be displayed on Home page or not), second field is Category Thumb Image (This is used to upload the thumb image) & last is Category description, this options is self - explainatory.
+> In this extension we have sorted the following shipping address fields (Street Address, City, Region, Postcode) on checkout page one after the another as per the need, you can do the same for yourself by changing the sorting number.
+
+> In order to achieve this we have using Plugin method of Magento2, here we have used afterProcess method to sort the shipping address fields. So once the fields are loaded by default process method the afterProcess method will sort it again based on the sorting number added in the function. 
 
 
 ## Installation Steps
