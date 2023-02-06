@@ -41,9 +41,9 @@ php bin/magento cache:flush
 
 &nbsp;
 &nbsp;
-
+<kbd>
 ![image1](https://user-images.githubusercontent.com/123800304/216899003-dd909f0f-2ec4-4bdc-b553-1cc5c31284e7.png)
-
+</kbd>
 &nbsp;
 &nbsp;
 
